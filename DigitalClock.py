@@ -9,3 +9,7 @@ root = tk.Tk()
 root.title("Digital Clock")
 root.geometry("500x300")
 
+#Default Settings
+is_24_hour = True
+dark_mode = True
+alarm_time = ""
