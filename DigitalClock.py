@@ -31,4 +31,8 @@ def time():
     if alarm_time == current_time:
         messagebox.showinfo("Alarm", "Time's up!")
     label.after(1000,time)
-     
+
+#tToggle time format
+def toggle_format():
+    global is_24_hour
+    is_24_hour = not is_24_hour
