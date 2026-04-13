@@ -13,3 +13,8 @@ root.geometry("500x300")
 is_24_hour = True
 dark_mode = True
 alarm_time = ""
+
+#funtion for update the clock
+def time():
+    global is_24_hour
+    
