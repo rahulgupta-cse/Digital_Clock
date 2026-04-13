@@ -25,4 +25,10 @@ def time():
         clock = strftime("%H:%M:%S %p \n %D")
     
     label.config(text=clock)
+
+    #Alarm checking logic 
+    current_time = datetime.now().strftime("%H:%M")
+    if alarm_time == current_time:
+        messagebox.showinfo("Alarm", "Time's up!")
+    label.after(1000,time)
      
