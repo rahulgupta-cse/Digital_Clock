@@ -17,4 +17,12 @@ alarm_time = ""
 #funtion for update the clock
 def time():
     global is_24_hour
+
+    #Time Format(12hr / 24hr)
+    if is_24_hour:
+        clock = strftime("%H:%M:%S \n %D")
+    else:
+        clock = strftime("%H:%M:%S %p \n %D")
     
+    label.config(text=clock)
+     
