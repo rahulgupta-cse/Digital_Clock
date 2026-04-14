@@ -32,7 +32,19 @@ def time():
         messagebox.showinfo("Alarm", "Time's up!")
     label.after(1000,time)
 
-#tToggle time format
+#Toggle time format
 def toggle_format():
     global is_24_hour
     is_24_hour = not is_24_hour
+
+#Toggle dark/light mode
+def toggle_theme():
+    global dark_mode
+    dark_mode = not dark_mode
+
+    if dark_mode:
+        root.config(bg="#272757")
+        label.config(bg="#272757",fg="#F2D3F4")
+    else:
+        root.config(bg="white")
+        label.config(bg="white",fg="black")
