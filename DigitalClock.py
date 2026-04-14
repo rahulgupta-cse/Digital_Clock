@@ -48,3 +48,10 @@ def toggle_theme():
     else:
         root.config(bg="white")
         label.config(bg="white",fg="black")
+
+#Set Alarm function
+def set_alarm():
+    global alarm_time
+    alarm_time = alarm_time.get()
+    messagebox.showinfo("Alarm Set",f"Alarm set for {alarm_time}")
+    
