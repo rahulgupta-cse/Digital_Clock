@@ -54,4 +54,13 @@ def set_alarm():
     global alarm_time
     alarm_time = alarm_time.get()
     messagebox.showinfo("Alarm Set",f"Alarm set for {alarm_time}")
-    
+
+#Clock label UI
+label = tk.Label(
+    root,
+    font=('calibri', 40),
+    background="#272757",
+    foreground="#E2D3F4"
+)
+label.pack(pady=20)
+
