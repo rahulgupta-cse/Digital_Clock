@@ -64,3 +64,12 @@ label = tk.Label(
 )
 label.pack(pady=20)
 
+#Buttons for features
+frame = tk.Frame(root)
+frame.pack()
+
+format_btn = tk.Button(frame, text="Toggle 12/24 Hr", command=toggle_format)
+format_btn.grid(row=0, column=0, padx=10)
+
+theme_btn = tk.Button(frame, text="Toggle Theme", command=toggle_theme)
+theme_btn.grid(row=0, column=1, padx=10)
