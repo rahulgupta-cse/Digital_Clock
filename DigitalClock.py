@@ -73,3 +73,11 @@ format_btn.grid(row=0, column=0, padx=10)
 
 theme_btn = tk.Button(frame, text="Toggle Theme", command=toggle_theme)
 theme_btn.grid(row=0, column=1, padx=10)
+
+#Alarm input UI
+alarm_entry = tk.Entry(root)
+alarm_entry.pack(pady=10)
+alarm_entry.insert(0, "HH:MM")
+
+alarm_btn = tk.Button(root, text="Set Alarm", command=set_alarm)
+alarm_btn.pack()
