@@ -81,3 +81,6 @@ alarm_entry.insert(0, "HH:MM")
 
 alarm_btn = tk.Button(root, text="Set Alarm", command=set_alarm)
 alarm_btn.pack()
+
+#Start clock
+funtime()
