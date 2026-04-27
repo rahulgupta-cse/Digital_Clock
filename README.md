@@ -14,3 +14,26 @@ A simple yet feature-rich **Digital Clock application** built using Python’s `
 * 🖥️ Clean and simple GUI using Tkinter
 
 ---
+## 📦 Installation
+
+1. Clone this repository or download the source code:
+
+   ```bash
+   git clone https://github.com/rahulgupta-cse/Digital_Clock.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd digital-clock-tkinter
+   ```
+
+3. Run the script:
+
+   ```bash
+   python clock.py
+   ```
+
+> ✅ Make sure Python is installed on your system.
+
+---
