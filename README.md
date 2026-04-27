@@ -58,3 +58,11 @@ A simple yet feature-rich **Digital Clock application** built using Python’s `
 * No validation for incorrect time input format.
 
 ---
+
+## 💡 Future Improvements
+
+* Add sound notification for alarm
+* Input validation for alarm time
+* Snooze functionality
+* Multiple alarms support
+* Improved UI styling
