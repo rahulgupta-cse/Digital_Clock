@@ -37,3 +37,24 @@ A simple yet feature-rich **Digital Clock application** built using Python’s `
 > ✅ Make sure Python is installed on your system.
 
 ---
+
+## ▶️ Usage
+
+* Launch the application.
+* View the current time and date.
+* Click:
+
+  * **"Toggle 12/24 Hr"** to switch time format.
+  * **"Toggle Theme"** to switch between dark and light modes.
+* Enter alarm time in `HH:MM` format.
+* Click **"Set Alarm"** to activate the alarm.
+
+---
+
+## ⚠️ Known Issues
+
+* Alarm currently checks only hour and minute (no seconds).
+* Alarm may trigger repeatedly within the same minute.
+* No validation for incorrect time input format.
+
+---
