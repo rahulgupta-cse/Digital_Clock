@@ -66,3 +66,11 @@ A simple yet feature-rich **Digital Clock application** built using Python’s `
 * Snooze functionality
 * Multiple alarms support
 * Improved UI styling
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
