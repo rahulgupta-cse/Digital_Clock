@@ -74,3 +74,10 @@ A simple yet feature-rich **Digital Clock application** built using Python’s `
 This project is open-source and available under the MIT License.
 
 ---
+
+## 🙌 Acknowledgements
+
+* Python documentation
+* Tkinter community examples
+
+---
