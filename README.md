@@ -81,3 +81,12 @@ This project is open-source and available under the MIT License.
 * Tkinter community examples
 
 ---
+
+## 👨‍💻 Author
+
+Rahul Gupta
+GitHub: https://github.com/rahulgupta-cse/Digital_Clock.git
+
+---
+
+⭐ If you like this project, consider giving it a star!
