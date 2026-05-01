@@ -68,6 +68,7 @@ label.pack(pady=20)
 frame = tk.Frame(root)
 frame.pack()
 
+# Buttons to change Time Format 
 format_btn = tk.Button(frame, text="Toggle 12/24 Hr", command=toggle_format)
 format_btn.grid(row=0, column=0, padx=10)
 
