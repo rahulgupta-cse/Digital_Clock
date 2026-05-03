@@ -61,11 +61,13 @@ A simple yet feature-rich **Digital Clock application** built using Python’s `
 
 ## 💡 Future Improvements
 
-* Add sound notification for alarm
+* sound notification for alarm
 * Input validation for alarm time
 * Snooze functionality
-* Multiple alarms support
+* Multiple alarms supportAdd
 * Improved UI styling
+* Voice Command support
+* Multiple time zone support
 
 ---
 
