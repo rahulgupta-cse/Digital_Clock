@@ -53,7 +53,7 @@ def toggle_theme():
 def set_alarm():
     global alarm_time
     alarm_time = alarm_time.get()
-    messagebox.showinfo("Alarm Set",f"Alarm set for {alarm_time}")
+    messagebox.showinfo("Alarm Set",f"Alarm set for {alarm_time}") #to show message about alaram
 
 #Clock label UI
 label = tk.Label(
