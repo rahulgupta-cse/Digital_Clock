@@ -58,7 +58,7 @@ def set_alarm():
 #Clock label UI
 label = tk.Label(
     root,
-    font=('calibri', 40),
+    font=('calibri', 40), #for font style and size 
     background="#272757", #Background color 
     foreground="#E2D3F4"
 )
