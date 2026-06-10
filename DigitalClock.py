@@ -59,7 +59,7 @@ def set_alarm():
 label = tk.Label(
     root,
     font=('calibri', 40),
-    background="#272757",
+    background="#272757", #Background color 
     foreground="#E2D3F4"
 )
 label.pack(pady=20)
