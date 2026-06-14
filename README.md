@@ -68,6 +68,7 @@ A simple yet feature-rich **Digital Clock application** built using Python’s `
 * Improved UI styling
 * Voice Command support
 * Multiple time zone support
+* Event reminder
 
 ---
 
